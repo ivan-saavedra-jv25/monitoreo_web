@@ -92,4 +92,4 @@ monitoreo_web/
 
 ---
 
-**Desarrollado por:**
+**Desarrollado por:** Ivan Saavedra
