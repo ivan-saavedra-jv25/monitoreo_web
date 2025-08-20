@@ -1,0 +1,109 @@
+/* Layout general */
+.dashboard-layout {
+  display: flex;
+  min-height: 90vh;
+  background-color: #f5f7fb;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+/* Contenido principal */
+.main-content {
+  flex: 1;
+  padding: 1rem !important;
+}
+
+/* Header */
+.header {
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  color: #0d47a1;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.card h3 {
+  color: #1565c0;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 0rem;
+}
+
+/* Tabla */
+.table-container {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: solid 1px #1565c0;
+}
+
+
+/* Layout general */
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  
+  min-height: 90vh;
+  background: #f5f7fb;
+  font-family: "Inter", sans-serif;
+}
+
+/* Contenido principal ocupa el espacio */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Footer menú */
+.footer-menu {
+  background: #1565c0;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-menu li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.footer-menu li:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
